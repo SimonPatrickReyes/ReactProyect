@@ -21,8 +21,9 @@ const Characters = () => {
         {personajes != null ? (
                 personajes.map(personaje=> (
                     <div key={personaje.id} className='char__images'>
-                        <a href={"https://thronesapi.com/assets/images/"+personaje.image}>{personaje.name}
+                        <a href={"https://thronesapi.com/assets/character/"+personaje.name}>
                         <p className='char__names'>{personaje.name}</p>
+                        
                         <img src={"https://thronesapi.com/assets/images/"+personaje.image} alt="" />
                         <h3 className='char__h3'>{personaje.name}</h3>
                     </a>

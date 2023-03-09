@@ -32,10 +32,6 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className="nav-pc__li">
-                    <NavLink to="/threads" className="btn btn-outline-primary">
-                        <p className="nav-pc__p">Threads</p>
-                    </NavLink></li>
-                <li className="nav-pc__li">
                     <NavLink to="/characters" className="btn btn-outline-primary">
                         <p className="nav-pc__p">Characters</p>
                     </NavLink></li>
